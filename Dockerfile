@@ -1,4 +1,4 @@
-ROM alpine:3.9
+FROM alpine:3.9
 COPY sshd_config /etc/ssh/sshd_config
 COPY entrypoint.sh entrypoint.sh
 RUN set -ex && \
