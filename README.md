@@ -5,3 +5,4 @@ docker build -t explicitvoid/sshtunnel:serveo .
 docker run -d --name sshtunnel -p 2222:22 --rm explicitvoid/sshtunnel:serveo
 docker logs sshtunnel
 ```
+Specify alternate password using `-e PASS=<password>`
